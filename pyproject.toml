@@ -22,9 +22,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-[tool.poetry.scripts]
-"forge-logging" = "forgelogging:cli"
-
 [tool.poetry.dependencies]
 python = "^3.8"
 forge-core = {git = "https://github.com/forgepackages/forge-core", rev = "next"}
